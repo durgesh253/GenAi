@@ -9,7 +9,7 @@ def create_chatbot():
     # Initialize the Gemini model
     llm = GoogleGenerativeAI(
         model="gemini-pro",
-        google_api_key="AIzaSyBeGmYdFeWkG7XzUKMDrFEIemeJJH-4kMc",
+        google_api_key="your_api_key",
         temperature=0.7
     )
     
